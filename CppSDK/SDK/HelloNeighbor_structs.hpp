@@ -1394,7 +1394,7 @@ public:
 	class UAnimationAsset*                        PushActor;                                         // 0x0010(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UAnimationAsset*                        Fall;                                              // 0x0018(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UAnimationAsset*                        PlayerInHome;                                      // 0x0020(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UAnimationAsset*                        catch;                                             // 0x0028(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UAnimationAsset*                        Catch;                                             // 0x0028(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UAnimationAsset*                        JumpStart;                                         // 0x0030(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UAnimationAsset*                        JumpLoop;                                          // 0x0038(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UAnimationAsset*                        JumpEnd;                                           // 0x0040(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -1427,7 +1427,7 @@ static_assert(offsetof(FSosedAnimations, OpenDoor) == 0x000008, "Member 'FSosedA
 static_assert(offsetof(FSosedAnimations, PushActor) == 0x000010, "Member 'FSosedAnimations::PushActor' has a wrong offset!");
 static_assert(offsetof(FSosedAnimations, Fall) == 0x000018, "Member 'FSosedAnimations::Fall' has a wrong offset!");
 static_assert(offsetof(FSosedAnimations, PlayerInHome) == 0x000020, "Member 'FSosedAnimations::PlayerInHome' has a wrong offset!");
-static_assert(offsetof(FSosedAnimations, catch) == 0x000028, "Member 'FSosedAnimations::catch' has a wrong offset!");
+static_assert(offsetof(FSosedAnimations, Catch) == 0x000028, "Member 'FSosedAnimations::Catch' has a wrong offset!");
 static_assert(offsetof(FSosedAnimations, JumpStart) == 0x000030, "Member 'FSosedAnimations::JumpStart' has a wrong offset!");
 static_assert(offsetof(FSosedAnimations, JumpLoop) == 0x000038, "Member 'FSosedAnimations::JumpLoop' has a wrong offset!");
 static_assert(offsetof(FSosedAnimations, JumpEnd) == 0x000040, "Member 'FSosedAnimations::JumpEnd' has a wrong offset!");
